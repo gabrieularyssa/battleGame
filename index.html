@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste Jogo Luta</title>
+</head>
+
+<body>
+    <div id="pelicula">
+        
+        <div class="fundo"> <h1>SIMULADOR  DE  BATALHA </h1> </div>
+        <br />
+        <br />
+        <div class="fundo"> <h2>ÁREA RESERVADA AO PLAYER Nº 01 PARA ESCOLHER SEU HEROI</h2></div>
+        <div id="heroes-container">
+        
+        </div>
+        <div class="fundo" > <h2>ÁREA RESERVADA AO PLAYER Nº 02 PARA ESCOLHER SEUS VILÕES</h2></div>
+        <div id="villains-container">
+           
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div id="printResult"></div>
+        <div class="tela">
+           
+            <div id="areaum" class="area">
+                <h2>PLAYER 01</h2>
+                
+                <div class="column01">
+                    <div class="imageOne">
+                    
+                    </div>
+                    <div class="dados1">
+
+                    </div>
+                    <div class="btn">
+                        <button id="ataque1I" class="ataqueA">Atacar Inteligencia</button>
+                        <button id="ataque1F" class="ataqueA">Atacar Força</button>
+                        <button id="ataque1A" class="ataqueA">Atacar Agilidade</button>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <br />
+            <div id="areadois" class="area">
+                <h2>PLAYER 02</h2>
+                
+                <div class="column2">
+                    <div class="imageTwo">
+
+                    </div>
+                    <div class="dados2">
+    
+                    </div>
+                    <div class="btn2">
+                        <button id="ataque2I" class="ataqueB">Atacar Inteligencia</button>
+                        <button id="ataque2F" class="ataqueB">Atacar Força</button>
+                        <button id="ataque2A" class="ataqueB">Atacar Agilidade</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="buttonBattle">
+            <button id="startBattle">Iniciar Batalha</button>
+            
+            
+        </div>
+        <div id="botLog" class="fundo">
+            <h1></h1>
+        </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
